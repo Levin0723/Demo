@@ -6,17 +6,15 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%
-    request.getParameter("do");
-%>
 <html>
 <head>
-    <title>欢迎登录留言本</title>
+    <title>注册用户</title>
     <style>
-        #sub{
+        #sub {
             height: 50px;
         }
-        #sub input{
+
+        #sub input {
             height: 30px;
             width: 60px;
             margin: auto 5px;
@@ -25,46 +23,75 @@
             font-size: 15px;
             border: 1px solid coral;
         }
-        #sub input:hover{
+
+        #sub input:hover {
             background-color: chartreuse;
         }
     </style>
     <script>
         function register() {
-            var re = getQueryString("do");
-            if(re!=null){
-                alert("帐号或密码不正确，请先注册或重新登录！")
+            var re = getQueryString("result");
+            if (re == 'true') {
+                var yn = confirm("注册成功，请返回登录！")
+                if (yn) {
+                    setTimeout(function () {
+                        location.href = 'index.jsp';
+                    }, 1000)
+                }
+            }
+            if (re == 'false') {
+                alert("注册不成功，请重新注册!")
             }
         }
 
         function getQueryString(name) {
             var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
             var r = window.location.search.substr(1).match(reg);
-            if (r != null) return unescape(r[2]); return null;
+            if (r != null) return unescape(r[2]);
+            return null;
+        }
+        function change1(obj) {
+            if (obj.value == "") {
+                alert("帐号不能为空！")
+            }
+        }
+        function change2(obj) {
+            if (obj.value == "") {
+                alert("密码不能为空！")
+            }
+        }
+        function change3(obj) {
+            var psw = document.getElementById("psw").value;
+            if (obj.value != psw) {
+                alert("再次输入的密码不一致！")
+            }
         }
     </script>
 </head>
 <body onload="register()">
 <br/>
-<h1 align="center">欢迎登录留言本</h1>
-<div></div>
+<h1 align="center">欢迎注册留言板</h1>
 <hr style="width: 60%;margin: auto;" color="coral"/>
 <br/>
-<form action="login" method="post">
+<form action="register" method="post">
     <table align="center" cellspacing="10px">
         <tr>
             <td>用户名：</td>
-            <td><input type="text" name="username" size="15px"/></td>
+            <td><input type="text" name="username" size="15px" onblur="change1(this)"/></td>
         </tr>
         <tr>
             <td>密码：</td>
-            <td><input type="password" name="userPassword" size="15px"/>
+            <td><input type="password" name="userPassword" size="15px" onchange="change2(this)" id="psw"/>
+            </td>
+        </tr>
+        <tr>
+            <td>确认密码：</td>
+            <td><input type="password" name="Password" size="15px" onchange="change3(this)"/>
             </td>
         </tr>
         <tr id="sub">
             <td colspan="2" align="center">
-                <input type="button" value="注册" onclick=""/>
-                <input type="submit" value="登录"/>
+                <input type="submit" value="注册"/>
                 <input type="reset" value="取消"/>
             </td>
         </tr>
