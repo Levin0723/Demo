@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="MySQL - imooc@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6">
+    <schema id="1" name="imooc">
+      <visible>1</visible>
+    </schema>
+    <schema id="2" name="information_schema"/>
+    <schema id="3" name="mysql"/>
+    <schema id="4" name="performance_schema"/>
+    <schema id="5" name="sys"/>
+    <schema id="6" name="test"/>
+    <table id="7" parent="1" name="account_info"/>
+    <table id="8" parent="1" name="goods_list"/>
+    <table id="9" parent="1" name="imooc_goddess"/>
+    <table id="10" parent="1" name="items"/>
+    <table id="11" parent="1" name="socket_file"/>
+    <table id="12" parent="1" name="socket_user"/>
+    <table id="13" parent="1" name="trading_info"/>
+    <table id="14" parent="1" name="trans_info"/>
+    <routine id="15" parent="1" name="sp_select_count">
+      <routine-kind>PROCEDURE</routine-kind>
+    </routine>
+    <routine id="16" parent="1" name="sp_select_filter">
+      <routine-kind>PROCEDURE</routine-kind>
+    </routine>
+    <routine id="17" parent="1" name="sp_select_nofilter">
+      <routine-kind>PROCEDURE</routine-kind>
+    </routine>
+    <column id="18" parent="7" name="id">
+      <mandatory>1</mandatory>
+      <data-type>int(11) unsigned|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="19" parent="7" name="account">
+      <mandatory>1</mandatory>
+      <data-type>varchar(20)|0</data-type>
+    </column>
+    <column id="20" parent="7" name="amount">
+      <mandatory>1</mandatory>
+      <data-type>double(18,2) unsigned|0</data-type>
+      <default-expression>&apos;0.00&apos;</default-expression>
+    </column>
+    <column id="21" parent="7" name="create_at">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+      <default-expression>CURRENT_TIMESTAMP</default-expression>
+    </column>
+    <key id="22" parent="7" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="23" parent="8" name="goods_id">
+      <comment>商品ID</comment>
+      <mandatory>1</mandatory>
+      <data-type>int(10) unsigned|0</data-type>
+    </column>
+    <column id="24" parent="8" name="goods_name">
+      <comment>商品名称</comment>
+      <mandatory>1</mandatory>
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="25" parent="8" name="cost_price">
+      <comment>成本价</comment>
+      <mandatory>1</mandatory>
+      <data-type>int(10) unsigned|0</data-type>
+      <default-expression>&apos;0&apos;</default-expression>
+    </column>
+    <column id="26" parent="8" name="selling_price">
+      <comment>售价</comment>
+      <mandatory>1</mandatory>
+      <data-type>int(10) unsigned|0</data-type>
+      <default-expression>&apos;0&apos;</default-expression>
+    </column>
+    <column id="27" parent="8" name="manufacturer">
+      <comment>制造商</comment>
+      <data-type>varchar(40)|0</data-type>
+    </column>
+    <column id="28" parent="9" name="id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="29" parent="9" name="student_id">
+      <mandatory>1</mandatory>
+      <data-type>smallint(4) unsigned|0</data-type>
+    </column>
+    <column id="30" parent="9" name="user_name">
+      <mandatory>1</mandatory>
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="31" parent="9" name="sex">
+      <data-type>int(11) unsigned|0</data-type>
+    </column>
+    <column id="32" parent="9" name="age">
+      <data-type>int(11) unsigned|0</data-type>
+    </column>
+    <column id="33" parent="9" name="birthday">
+      <data-type>date|0</data-type>
+    </column>
+    <column id="34" parent="9" name="email">
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="35" parent="9" name="mobile">
+      <data-type>varchar(11)|0</data-type>
+    </column>
+    <column id="36" parent="9" name="create_user">
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="37" parent="9" name="create_date">
+      <data-type>date|0</data-type>
+    </column>
+    <column id="38" parent="9" name="update_user">
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <column id="39" parent="9" name="update_date">
+      <data-type>date|0</data-type>
+    </column>
+    <column id="40" parent="9" name="isdel">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <key id="41" parent="9" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="42" parent="10" name="id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="43" parent="10" name="name">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="44" parent="10" name="city">
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="45" parent="10" name="price">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="46" parent="10" name="number">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="47" parent="10" name="picture">
+      <data-type>varchar(500)|0</data-type>
+    </column>
+    <key id="48" parent="10" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="49" parent="11" name="fid">
+      <mandatory>1</mandatory>
+      <data-type>int(10) unsigned|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="50" parent="11" name="fname">
+      <mandatory>1</mandatory>
+      <data-type>varchar(50)|0</data-type>
+    </column>
+    <column id="51" parent="11" name="fcontent">
+      <data-type>longblob|0</data-type>
+    </column>
+    <key id="52" parent="11" name="PRIMARY">
+      <columns>fid</columns>
+      <primary>1</primary>
+    </key>
+    <column id="53" parent="12" name="id">
+      <mandatory>1</mandatory>
+      <data-type>int(10) unsigned|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="54" parent="12" name="username">
+      <mandatory>1</mandatory>
+      <data-type>varchar(20)|0</data-type>
+    </column>
+    <column id="55" parent="12" name="password">
+      <data-type>varchar(30)|0</data-type>
+    </column>
+    <index id="56" parent="12" name="username">
+      <columns>username</columns>
+      <desc-columns></desc-columns>
+      <unique>1</unique>
+    </index>
+    <key id="57" parent="12" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+    <key id="58" parent="12" name="username">
+      <columns>username</columns>
+      <underlying-index>username</underlying-index>
+    </key>
+    <column id="59" parent="13" name="trading_id">
+      <comment>交易ID</comment>
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="60" parent="13" name="trading_goods_id">
+      <comment>交易商品ID</comment>
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="61" parent="13" name="trading_user_id">
+      <comment>交易买家ID</comment>
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="62" parent="13" name="trading_number">
+      <comment>交易数量</comment>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="63" parent="14" name="id">
+      <mandatory>1</mandatory>
+      <data-type>int(10) unsigned|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="64" parent="14" name="source_id">
+      <mandatory>1</mandatory>
+      <data-type>int(10) unsigned|0</data-type>
+    </column>
+    <column id="65" parent="14" name="source_account">
+      <mandatory>1</mandatory>
+      <data-type>varchar(20)|0</data-type>
+    </column>
+    <column id="66" parent="14" name="destination_id">
+      <mandatory>1</mandatory>
+      <data-type>int(10) unsigned|0</data-type>
+    </column>
+    <column id="67" parent="14" name="destination_account">
+      <mandatory>1</mandatory>
+      <data-type>varchar(20)|0</data-type>
+    </column>
+    <column id="68" parent="14" name="amount">
+      <mandatory>1</mandatory>
+      <data-type>double(18,2) unsigned|0</data-type>
+      <default-expression>&apos;0.00&apos;</default-expression>
+    </column>
+    <column id="69" parent="14" name="create_at">
+      <mandatory>1</mandatory>
+      <data-type>datetime|0</data-type>
+      <default-expression>CURRENT_TIMESTAMP</default-expression>
+    </column>
+    <key id="70" parent="14" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+    <argument id="71" parent="15" name="counts">
+      <direction>OUT</direction>
+      <data-type>int(5)|0</data-type>
+    </argument>
+    <argument id="72" parent="16" name="sp_name">
+      <direction>IN</direction>
+      <data-type>varchar(20)|0</data-type>
+    </argument>
+  </database-model>
+</dataSource>

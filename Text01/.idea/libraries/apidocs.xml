@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="apidocs">
+    <CLASSES />
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../各种工具/Dbcp连接池-Java项目-3个jar包/commons-dbcp2-2.1.1-bin.zip!/commons-dbcp2-2.1.1/apidocs" />
+      <root url="jar://$PROJECT_DIR$/../../各种工具/Dbcp连接池-Java项目-3个jar包/commons-logging-1.2-bin.zip!/commons-logging-1.2/apidocs" />
+      <root url="jar://$PROJECT_DIR$/../../各种工具/Dbcp连接池-Java项目-3个jar包/commons-pool2-2.4.2-bin.zip!/commons-pool2-2.4.2/apidocs" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>
