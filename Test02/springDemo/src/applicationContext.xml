@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="student" class="bean.Student">
+        <property name="name">
+            <value>张三</value>
+        </property>
+        <property name="age">
+            <value>24</value>
+        </property>
+        <property name="gender">
+            <value>男</value>
+        </property>
+    </bean>
+    <bean id="show" class="bean.ShowStudent" autowire="no"/>
+
+    <bean id="people" class="pointcut.People"/>
+    <bean id="peopleAdvice" class="pointcut.PeopleBeforeAdvice"/>
+
+    <bean id="DefaultAdvistor" class="org.springframework.aop.support.RegexpMethodPointcutAdvisor">
+        <property name="patterns">
+            <list>
+                <value>.*ing</value>
+            </list>
+        </property>
+        <property name="advice" ref="peopleAdvice"/>
+    </bean>
+    <bean id="proxyFactoryBean" class="org.springframework.aop.framework.ProxyFactoryBean">
+        <property name="interceptorNames">
+            <idref bean="DefaultAdvistor"/>
+        </property>
+        <property name="target" ref="people"/>
+    </bean>
+</beans>

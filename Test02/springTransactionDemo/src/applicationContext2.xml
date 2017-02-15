@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- c3p0连接池 -->
+    <bean id="dataSource2" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <property name="driverClass" value="com.mysql.jdbc.Driver"/>
+        <property name="jdbcUrl" value="jdbc:mysql:///test2?useUnicode=true&amp;characterEncoding=UTF-8"/>
+        <property name="user" value="root"/>
+        <property name="password" value="daodao"/>
+    </bean>
+
+    <!--配置业务类 -->
+    <bean id="accountService2" class="declarative.transaction.com.AccountServiceImpl">
+        <property name="accountDao" ref="accountDao2"/>
+    </bean>
+
+    <!--配置DAO类 -->
+    <bean id="accountDao2" class="declarative.transaction.com.AccountDaoImpl">
+        <!-- 注入连接池 -->
+        <property name="dataSource" ref="dataSource2"/>
+    </bean>
+
+
+    <!--配置事务管理器 -->
+    <bean id="transactionManager2" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource2"/>
+    </bean>
+
+    <!--配置业务类代理 -->
+    <bean id="accountServiceProxy" class="org.springframework.transaction.interceptor.TransactionProxyFactoryBean">
+        <!-- 配置目标对象 -->
+        <property name="target" ref="accountService2"/>
+        <!--注入事务管理器 -->
+        <property name="transactionManager" ref="transactionManager2"/>
+        <!--注入事务属性 -->
+        <property name="transactionAttributes">
+            <props>
+                <prop key="transfer">PROPAGATION_REQUIRED</prop>
+            </props>
+        </property>
+    </bean>
+
+</beans>

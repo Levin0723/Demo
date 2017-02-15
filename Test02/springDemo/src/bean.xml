@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="student" class="bean.Student">
+        <!-- 1，设值注入
+        <property name="name">
+            <value>张三</value>
+        </property>
+        <property name="age">
+            <value>24</value>
+        </property>
+        <property name="gender">
+            <value>男</value>
+        </property> -->
+
+        <!-- ，构造注入 -->
+        <!--<constructor-arg name="name">-->
+            <!--<value>李四</value>-->
+        <!--</constructor-arg>-->
+        <!--<constructor-arg name="age">-->
+            <!--<value>21</value>-->
+        <!--</constructor-arg>-->
+        <!--<constructor-arg name="gender">-->
+            <!--<value>女</value>-->
+        <!--</constructor-arg>-->
+    </bean>
+</beans>

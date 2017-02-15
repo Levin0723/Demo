@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+    <package name="default" namespace="/" extends="struts-default">
+        <!-- 注册拦截器 -->
+        <interceptors>
+            <interceptor name="timer" class="intercept.MyInterceptor"/>
+            <interceptor name="login" class="intercept.LoginIntercept"/>
+            <!-- 自定义拦截器栈 -->
+            <interceptor-stack name="myStack">
+                <interceptor-ref name="defaultStack"/>
+                <interceptor-ref name="login"/>
+            </interceptor-stack>
+        </interceptors>
+
+
+        <action name="helloword" class="action.MyAction">
+            <result>/result.jsp</result>
+        </action>
+        <action name="login" class="action.Login" method="login">
+            <result>/WEB-INF/page/manager.jsp</result>
+            <result name="error">/login.jsp</result>
+        </action>
+
+        <!-- 通过此Action访问后台页面,需要判断是否登录-->
+        <action name="auth">
+            <result>/WEB-INF/page/manager.jsp</result>
+            <result name="login">/login.jsp</result>
+            <!-- 引用拦截器栈 -->
+            <interceptor-ref name="myStack"/>
+        </action>
+
+
+        <action name="timer" class="action.Timer" method="execute">
+            <result>/result.jsp</result>
+            <!-- 引用默认拦截器栈 -->
+            <interceptor-ref name="defaultStack"/>
+            <!-- 引用拦截器 -->
+            <interceptor-ref name="timer"/>
+        </action>
+    </package>
+    <package name="error" namespace="/" extends="struts-default">
+        <default-action-ref name="error"/>
+        <action name="error">
+            <result>/error.jsp</result>
+        </action>
+
+    </package>
+</struts>
