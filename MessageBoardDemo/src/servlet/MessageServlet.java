@@ -21,6 +21,8 @@ import java.util.List;
 @WebServlet(name = "MessageServlet",urlPatterns = {"/messageServlet"})
 public class MessageServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        request.setCharacterEncoding("utf-8");
+        response.setCharacterEncoding("utf-8");
         String messageContent = request.getParameter("messageContent");
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         User user = (User) request.getSession().getAttribute("user");

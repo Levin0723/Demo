@@ -2,16 +2,167 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="157573ce-f855-4e0a-b61a-1ea2547f2db5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/Util/DBHelper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/bean/Message.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/bean/User.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/dao/MessageDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/dao/UserDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/filter/loginFilter.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/servlet/MessageServlet.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/servlet/loginServlet.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/servlet/registerServlet.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/index.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Hibernate_Demo/image/03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Hibernate_Demo/lib/junit-4.4.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Hibernate_Demo/lib/mysql-connector-java-5.1.40-bin.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/WEB-INF/lib/commons-fileupload-1.3.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/WEB-INF/lib/commons-io-2.5.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/WEB-INF/lib/javax.mail-1.5.6.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/WEB-INF/lib/jcommon-1.0.23.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/WEB-INF/lib/jfreechart-1.0.19.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/css/modules/laydate/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/css/modules/layer/default/icon-ext.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/css/modules/layer/default/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/css/modules/layer/default/loading-0.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/css/modules/layer/default/loading-1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/css/modules/layer/default/loading-2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/font/iconfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/font/iconfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/font/iconfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/images/face/0.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/images/face/1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/images/face/10.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/images/face/11.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/images/face/12.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/images/face/13.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/images/face/14.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/images/face/15.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/images/face/16.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/images/face/17.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/images/face/18.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/images/face/19.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/images/face/2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/images/face/20.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/images/face/21.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/images/face/22.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/images/face/23.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/images/face/24.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/images/face/25.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/images/face/26.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/images/face/27.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/images/face/28.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/images/face/29.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/images/face/3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/images/face/30.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/images/face/31.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/images/face/32.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/images/face/33.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/images/face/34.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/images/face/35.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/images/face/36.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/images/face/37.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/images/face/38.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/images/face/39.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/images/face/4.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/images/face/40.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/images/face/41.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/images/face/42.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/images/face/43.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/images/face/44.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/images/face/45.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/images/face/46.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/images/face/47.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/images/face/48.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/images/face/49.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/images/face/5.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/images/face/50.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/images/face/51.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/images/face/52.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/images/face/53.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/images/face/54.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/images/face/55.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/images/face/56.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/images/face/57.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/images/face/58.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/images/face/59.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/images/face/6.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/images/face/60.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/images/face/61.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/images/face/62.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/images/face/63.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/images/face/64.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/images/face/65.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/images/face/66.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/images/face/67.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/images/face/68.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/images/face/69.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/images/face/7.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/images/face/70.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/images/face/71.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/images/face/8.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/images/face/9.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/GitHub.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Hibernate_Demo/.idea/dataSources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Hibernate_Demo/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Hibernate_Demo/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Hibernate_Demo/.idea/junitgenerator-prj-settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Hibernate_Demo/.idea/libraries/Hibernate_5_2_3_5_2_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Hibernate_Demo/.idea/libraries/junit_4_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Hibernate_Demo/.idea/libraries/mysql_connector_java_5_1_40_bin.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Hibernate_Demo/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Hibernate_Demo/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Hibernate_Demo/src/Class.hbm.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Hibernate_Demo/src/Student.hbm.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Hibernate_Demo/src/Student1.hbm.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Hibernate_Demo/src/bean/Address.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Hibernate_Demo/src/bean/Class.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Hibernate_Demo/src/bean/Student.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Hibernate_Demo/src/bean/Student1.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Hibernate_Demo/src/hibernate.cfg.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Hibernate_Demo/src/util/HibernateUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Hibernate_Demo/test/StudentTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Hibernate_Demo/test/Test1.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Hibernate_Demo/test/Test2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/src/XMLTest/XMLDom.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/src/description/Description.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/src/servlet/ServletAJAX.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/src/servlet/ServletDownLoad.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/src/servlet/ServletSendMail.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/src/servlet/ServletUpload.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/src/text01/Test01.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/src/util/ChartUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/src/util/ClassUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/src/util/GetFile.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/src/util/MailSendInfo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/src/util/MyAuthenticator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/src/util/SimpleMailSender.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/Ajax.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/download.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/fileList.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/fileUpload.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/jfreechart.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/css/layui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/css/modules/code.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/css/modules/laydate/laydate.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/css/modules/layer/default/layer.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/font/iconfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/lay/dest/layui.all.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/lay/lib/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/lay/modules/code.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/lay/modules/element.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/lay/modules/flow.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/lay/modules/form.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/lay/modules/laydate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/lay/modules/layedit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/lay/modules/layer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/lay/modules/laypage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/lay/modules/laytpl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/lay/modules/tree.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/lay/modules/upload.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/lay/modules/util.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/layui/layui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/sendmail.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/test.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/up.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Text01/web/upload.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FilterDemo/src/filter/Filter.java" afterPath="$PROJECT_DIR$/../FilterDemo/src/filter/Filter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FilterDemo/src/listener/Listener.java" afterPath="$PROJECT_DIR$/../FilterDemo/src/listener/Listener.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FilterDemo/src/servlet/Servlet.java" afterPath="$PROJECT_DIR$/../FilterDemo/src/servlet/Servlet.java" />
@@ -19,21 +170,13 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FilterDemo/web/login.jsp" afterPath="$PROJECT_DIR$/../FilterDemo/web/login.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FilterDemo/web/nologin.jsp" afterPath="$PROJECT_DIR$/../FilterDemo/web/nologin.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FilterDemo/web/success.jsp" afterPath="$PROJECT_DIR$/../FilterDemo/web/success.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MessageBoardDemo.iml" afterPath="$PROJECT_DIR$/MessageBoardDemo.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Util/DBHelper.java" afterPath="$PROJECT_DIR$/src/Util/DBHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/bean/Message.java" afterPath="$PROJECT_DIR$/src/bean/Message.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/bean/User.java" afterPath="$PROJECT_DIR$/src/bean/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dao/MessageDao.java" afterPath="$PROJECT_DIR$/src/dao/MessageDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dao/UserDao.java" afterPath="$PROJECT_DIR$/src/dao/UserDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/filter/loginFilter.java" afterPath="$PROJECT_DIR$/src/filter/loginFilter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/servlet/MessageServlet.java" afterPath="$PROJECT_DIR$/src/servlet/MessageServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/servlet/ServletLogup.java" afterPath="$PROJECT_DIR$/src/servlet/ServletLogup.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/servlet/loginServlet.java" afterPath="$PROJECT_DIR$/src/servlet/loginServlet.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/servlet/registerServlet.java" afterPath="$PROJECT_DIR$/src/servlet/registerServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/message.jsp" afterPath="$PROJECT_DIR$/web/message.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/register.jsp" afterPath="$PROJECT_DIR$/web/register.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Text01/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Text01/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Text01/out/artifacts/Text01_war_exploded/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/../Text01/out/artifacts/Text01_war_exploded/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Text01/out/artifacts/Text01_war_exploded/test.jsp" afterPath="$PROJECT_DIR$/../Text01/out/artifacts/Text01_war_exploded/test.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Text01/src/bean/User.java" afterPath="$PROJECT_DIR$/../Text01/src/bean/User.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Text01/src/bean/test1.java" afterPath="$PROJECT_DIR$/../Text01/src/bean/test1.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Text01/src/servlet/AddServlet.java" afterPath="$PROJECT_DIR$/../Text01/src/servlet/AddServlet.java" />
@@ -41,6 +184,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Text01/src/text01/DBCPTest.java" afterPath="$PROJECT_DIR$/../Text01/src/text01/DBCPTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Text01/src/text01/DataBasicTest.java" afterPath="$PROJECT_DIR$/../Text01/src/text01/DataBasicTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Text01/src/text01/IsEmail.java" afterPath="$PROJECT_DIR$/../Text01/src/text01/IsEmail.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Text01/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/../Text01/web/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Text01/web/config.jsp" afterPath="$PROJECT_DIR$/../Text01/web/config.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Text01/web/list.jsp" afterPath="$PROJECT_DIR$/../Text01/web/list.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Text01/web/test.jsp" afterPath="$PROJECT_DIR$/../Text01/web/test.jsp" />
@@ -64,7 +208,94 @@
     <favorites_list name="MessageBoardDemo" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="DBHelper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Util/DBHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="loginServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/servlet/loginServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="29" column="4" selection-start-line="0" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MessageServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/servlet/MessageServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="70">
+              <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="registerServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/servlet/registerServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServletLogup.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/servlet/ServletLogup.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dao/UserDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="59" column="9" selection-start-line="0" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+              <folding>
+                <marker date="1484377377667" expanded="true" signature="467:551" ph="SELECT * FRO... user_info" />
+                <marker date="1484377377667" expanded="true" signature="1289:1346" ph="INSERT INTO user_info... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="loginFilter.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/filter/loginFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MessageDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dao/MessageDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1056">
+              <caret line="54" column="84" selection-start-line="54" selection-start-column="84" selection-end-line="54" selection-end-column="84" />
+              <folding>
+                <marker date="1484533980204" expanded="true" signature="593:688" ph="INSERT INTO message_info... " />
+                <marker date="1484533980204" expanded="true" signature="1243:1345" ph="SELECT * FRO... message_info" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -91,16 +322,16 @@
         <option value="$PROJECT_DIR$/src/bean/Message.java" />
         <option value="$PROJECT_DIR$/web/dologin.jsp" />
         <option value="$PROJECT_DIR$/src/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/src/servlet/registerServlet.java" />
         <option value="$PROJECT_DIR$/src/filter/loginFilter.java" />
         <option value="$PROJECT_DIR$/src/dao/MessageDao.java" />
         <option value="$PROJECT_DIR$/src/Util/TokenProccessor.java" />
-        <option value="$PROJECT_DIR$/src/servlet/MessageServlet.java" />
-        <option value="$PROJECT_DIR$/src/servlet/loginServlet.java" />
         <option value="$PROJECT_DIR$/src/servlet/ServletLogup.java" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/web/register.jsp" />
         <option value="$PROJECT_DIR$/web/message.jsp" />
+        <option value="$PROJECT_DIR$/src/servlet/loginServlet.java" />
+        <option value="$PROJECT_DIR$/src/servlet/MessageServlet.java" />
+        <option value="$PROJECT_DIR$/src/servlet/registerServlet.java" />
       </list>
     </option>
   </component>
@@ -170,9 +401,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -181,46 +411,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MessageBoardDemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MessageBoardDemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MessageBoardDemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MessageBoardDemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MessageBoardDemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MessageBoardDemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -230,6 +423,7 @@
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="js-jscs-nodeInterpreter" value="D:\Program Files\node.js\node.exe" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -780,12 +974,23 @@
       <option name="presentableId" value="Default" />
       <updated>1484363980703</updated>
       <workItem from="1484363982652" duration="15747000" />
-      <workItem from="1484525140108" duration="13064000" />
+      <workItem from="1484525140108" duration="13287000" />
+      <workItem from="1484538925624" duration="1649000" />
+      <workItem from="1485047109143" duration="48000" />
+      <workItem from="1487213913409" duration="1679000" />
     </task>
+    <task id="LOCAL-00001" summary="-----&gt;2&lt;-------">
+      <created>1484538693635</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1484538693635</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28811000" />
+    <option name="totallyTimeSpent" value="32410000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="467" y="14" width="1053" height="867" extended-state="0" />
@@ -800,12 +1005,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32872927" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872927" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872927" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24974722" sideWeight="0.46502057" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35187057" sideWeight="0.46502057" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24974722" sideWeight="0.5349794" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -832,6 +1037,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="-----&gt;2&lt;-------" />
+    <option name="LAST_COMMIT_MESSAGE" value="-----&gt;2&lt;-------" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -845,10 +1054,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#313#350#0#HTML" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -856,7 +1061,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1512">
           <caret line="63" column="25" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -864,7 +1068,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
           <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -872,7 +1075,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="696">
           <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -880,41 +1082,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Util/DBHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/dologin.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="61" column="5" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1484377377667" expanded="true" signature="467:509" ph="SELECT * FRO... user_info" />
-            <marker date="1484377377667" expanded="true" signature="467:551" ph="SELECT * FRO... user_info" />
-            <marker date="1484377377667" expanded="true" signature="1289:1346" ph="INSERT INTO user_info... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -922,15 +1097,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="8" column="27" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/filter/loginFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -938,59 +1104,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/MessageDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1296">
-          <caret line="54" column="84" selection-start-line="54" selection-start-column="84" selection-end-line="54" selection-end-column="84" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1167#1176#0" expanded="true" />
-            <marker date="1484533980204" expanded="true" signature="593:652" ph="INSERT INTO message_info... " />
-            <marker date="1484533980204" expanded="true" signature="593:688" ph="INSERT INTO message_info... " />
-            <marker date="1484533980204" expanded="true" signature="1243:1285" ph="SELECT * FRO... message_info" />
-            <marker date="1484533980204" expanded="true" signature="1243:1345" ph="SELECT * FRO... message_info" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Util/TokenProccessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlet/MessageServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="25" column="69" selection-start-line="25" selection-start-column="69" selection-end-line="25" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlet/registerServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Util/TokenProccessor.java" />
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="48" column="26" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
-          <folding>
-            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#313#350#0#HTML" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -998,23 +1119,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="72" column="26" selection-start-line="72" selection-start-column="26" selection-end-line="72" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlet/loginServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="32" column="60" selection-start-line="32" selection-start-column="60" selection-end-line="32" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlet/ServletLogup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1022,9 +1126,76 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="59" column="26" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/MessageDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1056">
+          <caret line="54" column="84" selection-start-line="54" selection-start-column="84" selection-end-line="54" selection-end-column="84" />
           <folding>
-            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1484533980204" expanded="true" signature="593:688" ph="INSERT INTO message_info... " />
+            <marker date="1484533980204" expanded="true" signature="1243:1345" ph="SELECT * FRO... message_info" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlet/ServletLogup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Util/DBHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlet/registerServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlet/MessageServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlet/loginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="29" column="4" selection-start-line="0" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="59" column="9" selection-start-line="0" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+          <folding>
+            <marker date="1484377377667" expanded="true" signature="467:551" ph="SELECT * FRO... user_info" />
+            <marker date="1484377377667" expanded="true" signature="1289:1346" ph="INSERT INTO user_info... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/filter/loginFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
